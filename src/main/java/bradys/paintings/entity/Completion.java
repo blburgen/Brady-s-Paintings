@@ -18,7 +18,7 @@ public class Completion {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long completionId;
 	
-	private String completionYear;
+	private Long completionYear;
 	private String status;
 	
 	@OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
